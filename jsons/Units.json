@@ -1,16 +1,48 @@
 [
 	{
-		"name": "Phasers",
+		"name": "Braver Dragon",
 		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Morphtronics",
 		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
+		"movement": 4,
+		"strength": 180,
+		"rangedStrength": 80,
+		"range": 3,
 		"cost": 500,
 		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"requiredResource": "Iron",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "phasers"
+	}
+]
+[
+	{
+		"name": "Ignition",
+		"unitType": "Ranged",
+		"uniqueTo": "Morphtronics",
+		"replaces": "Archer",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 45,
+		"range": 4,
+		"cost": 68,
+		"requiredTech": "Ballistics",
+		"requiredResource": "Iron",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "phasers"
+	}
+]
+[
+	{
+		"name": "Telefon",
+		"unitType": "Ranged",
+		"uniqueTo": "Morphtronics",
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 45,
+		"range": 2,
+		"cost": 68,
+		"requiredTech": "Ballistics", 
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
