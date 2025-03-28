@@ -3,7 +3,6 @@
 		"name": "Braver Dragon",
 		"unitType": "Ranged",
 		"uniqueTo": "Morphtronics",
-		"replaces": "Machine Gun",
 		"movement": 4,
 		"strength": 180,
 		"rangedStrength": 80,
@@ -13,9 +12,7 @@
 		"requiredResource": "Iron",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
-	}
-]
-[
+	}, 
 	{
 		"name": "Ignition",
 		"unitType": "Ranged",
@@ -24,15 +21,13 @@
 		"movement": 3,
 		"strength": 20,
 		"rangedStrength": 45,
-		"range": 4,
+		"range": 6,
 		"cost": 68,
-		"requiredTech": "Ballistics",
+		"requiredTech": "Iron Working",
 		"requiredResource": "Iron",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
-	}
-]
-[
+	}, 
 	{
 		"name": "Telefon",
 		"unitType": "Ranged",
@@ -41,8 +36,21 @@
 		"strength": 25,
 		"rangedStrength": 45,
 		"range": 2,
-		"cost": 68,
-		"requiredTech": "Ballistics", 
+		"cost": 20,
+		"requiredTech": "Machinery", 
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "phasers"
+	}, 
+ {
+		"name": "Smartfon",
+		"unitType": "Ranged",
+		"uniqueTo": "Morphtronics",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 15,
+		"requiredTech": "Machinery", 
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
